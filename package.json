@@ -1,0 +1,11 @@
+{
+  "name": "kendo-ui-webpack",
+  "version": "1.0.0",
+  "description": "This is a demo showing how to use Webpack with Kendo UI files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Telerik.inc",
+  "license": "MIT"
+}
