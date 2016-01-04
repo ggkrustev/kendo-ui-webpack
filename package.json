@@ -2,10 +2,21 @@
   "name": "kendo-ui-webpack",
   "version": "1.0.0",
   "description": "This is a demo showing how to use Webpack with Kendo UI files",
-  "main": "index.js",
   "scripts": {
+    "start": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Telerik.inc",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "express": "^4.13.3",
+    "http-proxy": "^1.12.0",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
 }
